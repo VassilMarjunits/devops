@@ -2,7 +2,7 @@
 pipeline {
 	agent any
 	parameters {
-	choices (
+	choice (
 		choices: 'Default\nCreate new VM',
 		description: '',
 		name: 'VM_provisioning')
